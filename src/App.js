@@ -1,4 +1,5 @@
 import Login from "./components/Login";
+import Alert from "./components/Alert";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -7,6 +8,7 @@ const App = () => {
     <div>
 
       <Login/>
+      <Alert/>
 
     </div>
   )
