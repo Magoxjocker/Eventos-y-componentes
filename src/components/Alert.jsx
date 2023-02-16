@@ -1,7 +1,7 @@
 
-const Alert = () => {
+const Alert= ({alerta}) => {
   return (
-    <div>Alert</div>
+    <div className={`alert alert-${alerta.color} my-3`}>{alerta.msg}</div>
   )
 }
 
